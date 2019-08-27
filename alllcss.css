@@ -1,0 +1,212 @@
+#selected {
+	background: grey;
+
+	
+
+}
+
+.container{
+	width: 100%;
+}
+.robpic {
+	width:50px;
+	height:50px;
+	
+}
+
+.centered {
+  top:15%;
+  left:12%;
+  position:absolute;
+}
+
+.whitecolor{
+	color:white;
+	font-family: Roboto;
+}
+
+
+
+.navbar-nav a {
+  font-family: Roboto;
+  color: white;
+  
+
+}
+
+.nav-link{
+	color:black;
+}
+
+.navbar  {
+  background: black;
+  color: black;
+}
+
+#manage2{
+	height:33%;
+}
+
+#sidebar {
+	
+	
+    position: fixed;
+}
+
+#manage1{
+	
+}
+.big{
+	font-size: 55px;
+}
+
+
+body, html {
+ 	height: 100%;
+ 	scroll-behavior: smooth;
+}
+
+.row{
+	height: 50%;
+}
+
+.full{
+	height: 200%}
+
+.sidebar{
+	position:absolute;
+}
+
+.navbar1 {
+	font-family: Helvetica ;
+	background-color: #EB4511 ;
+}
+
+#one {
+	
+}
+
+#no {
+	background: black;
+	color:white;
+	
+	
+}
+
+li {
+    margin-right: 5px;
+}
+
+
+#navalign{
+	text-align: right;
+}
+
+
+h1{
+	margin-top: 75px;
+	margin-left: 50px;
+}
+h2, h3, h5{
+	margin-top: 25px;
+	margin-left: 50px;
+	font-family: Roboto;
+}
+
+h1{
+	padding-top:-10px;
+	padding-bottom:-10px;
+}
+
+.sidenav {
+  
+  
+  position: fixed;
+ 
+  background-color: #893168;
+
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+#bigpapi {
+  visibility: visible;
+  transition: opacity 2s linear;
+}
+
+
+ 
+
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+
+.fade-in2 {
+	
+	animation-name: fadeInOpacity;
+	
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;
+	
+}
+
+
+.fade-in3 {
+	
+	animation-name: fadeInOpacity;
+	
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 5s;
+	
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.subtext {
+	margin-left: 50px;
+	font-family: Roboto;
+	font-size: 17px;
+}
+
+#part1{
+	background: black;
+
+
+}
+
+#color1{
+	color:white;
+}
+
+img.resize{
+  width:200px;
+  height:500px;
+  margin-top:50px;
+  margin-left:50%;
+}
+
