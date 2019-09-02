@@ -1,183 +1,267 @@
-#selected {
-	background: grey;
-
-	
-
-}
-
-.container{
-	width: 100%;
-}
-.robpic {
-	width:50px;
-	height:50px;
-	
-}
-
-.centered {
-  top:15%;
-  left:12%;
-  position:absolute;
-}
-
-.whitecolor{
-	color:white;
-	font-family: Roboto;
+.navbar  {
+	background-color:#202020;
+	border-bottom:1px solid  #202020;;
+	color: black;
 }
 
 
 
 .navbar-nav a {
-  font-family: Roboto;
-  color: white;
-  
+	font-family: Raleway;
+	color: white;
+	font-size: 18px;
+	font-weight:normal;
+	text-decoration: underline;
 
 }
 
-.nav-link{
-	color:black;
+.navbar-collapse{
+	clear: both;
 }
 
-.navbar  {
-  background: black;
-  color: black;
-}
-
-#manage2{
-	height:33%;
-}
-
-#sidebar {
-	
-	
-    position: fixed;
-}
-
-#manage1{
+.robpictrue{ 
+	background-image: url('splash6.png');
+	background-size: cover;
+	display: none;
 	
 }
-.big{
-	font-size: 55px;
-}
 
-
-body, html {
- 	height: 100%;
- 	scroll-behavior: smooth;
-}
-
-.row{
-	height: 50%;
-}
-
-.full{
-	height: 200%}
-
-.sidebar{
+.centered {
+	top:15%;
+	left:12%;
 	position:absolute;
 }
 
-.navbar1 {
-	font-family: Helvetica ;
-	background-color: #EB4511 ;
+.navbar-brand{
+	margin: 0;
+	padding: 0;
 }
 
-#one {
-	
+.robpic{
+	text-align: center;
+	width: 80%;
+	height: auto;
+	max-width: 50%;
+	max-height: 40%;
+	border: 15px solid black;
+
+}
+
+.containit{
+	margin-top:45px;
+	left:50%;
+	text-align:center;
+	padding: 0;
+}
+
+.containit2{
+	margin-top:20px;
+}
+
+.containit2 p{
+	padding: 0;
+	margin:10px;
+}
+
+
+
+.big{
+	font-size: 50px;
 }
 
 #no {
-	background: black;
+	background: #202020;
+	border-bottom:1px solid black;
 	color:white;
+	min-height: 70vh;
+	padding-bottom: 40px;
+	height: 100%;
+	border-right:2px solid black;
+}
+
+#no1 {
+	background: #202020;
+	border-bottom: 2px solid black;
+	color:white;
+	height: 100%;
+	min-height: 70vh;	
+	padding-bottom: 40px;
+}
+
+
+#no5 {
+	background: url('apple3.png');
+	background-size: cover;
+	border-bottom: 2px solid black;
+	color:white;
+	min-height: 70vh;
+	padding-bottom: 40px;
+}
+
+
+#no8 {
+	background: url('PND-pic.png');
+	background-size: cover;
+	border-bottom: 2px solid black;
+	color:white;
+	min-height: 79vh;
+	height: auto;
+	padding-bottom: 40px;
+
+}
+
+
+#no6 {
+	background-color:black;
+	border-bottom: 2px solid black;
+	color:white;
+	min-height: 100% auto;
+}
+
+#no2 {
+	background: url("microphone.png");
+	background-size:cover;
+	width: 100vw;
+	color:white;
+	height: 50%;
+	min-height: 50vh;
+	width: 100vw;
+	padding-bottom: 40px;
+}
+
+
+ #manage-heading{
+    	display: none;
+    }
+
+
+
+.push{
+	padding:0;
+	text-align:center;
+}
+
+.push h5{
+	margin-top:10%;
+	margin-right: 40px;
+}
+
+.push1{
+	background:black;
+	color:white;
+	width: 100vw;
+	border-left:1px solid white;
 	
-	
+}
+
+.push-center{
+	text-align: center;
+	margin-left: 40%;
+	margin-top: 50px;
+	border: 5px solid black;
+	width: 175px;
 }
 
 li {
-    margin-right: 5px;
+	margin-right: 5px;
 }
-
-
-#navalign{
-	text-align: right;
-}
-
 
 h1{
 	margin-top: 75px;
 	margin-left: 50px;
+	font-weight:normal;
 }
 h2, h3, h5{
 	margin-top: 25px;
 	margin-left: 50px;
-	font-family: Roboto;
-}
-
-h1{
-	padding-top:-10px;
-	padding-bottom:-10px;
-}
-
-.sidenav {
-  
-  
-  position: fixed;
- 
-  background-color: #893168;
+	font-family: Raleway;
+	font-weight: 4;
+	margin-right: 30px;
 
 }
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
+.first-page{
+	position: relative;
+	overflow: hidden;
 }
 
-.sidenav a:hover {
-  color: #f1f1f1;
+.first-page p{
+	padding: 0;
+	margin: 0;
 }
 
-#bigpapi {
-  visibility: visible;
-  transition: opacity 2s linear;
+.row{
+	height:100%;
+}
+
+.third-page{
+	width :100vw;
+	height: 100%;
+
+}
+
+.second-page{
+	height: 100%;
+	width :100%;
+	
 }
 
 
- 
+.gmail-icon{
+	max-height: 100%;
+	height: 25px;
+	margin-top: 5px;
+}
+.linkedin-icon{
+	max-height: 100%;
+	height: 35px;
+	margin-top: 5px;
+}
 
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	overflow-x: hidden;
+}
 
 .fade-in {
 	opacity: 1;
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
-	animation-duration: 1s;
+	animation-duration: .5s;
 }
 
-
 .fade-in2 {
-	
 	animation-name: fadeInOpacity;
-	
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 3s;
 	
 }
 
+.results-heading{
+	display: none;
+}
 
 .fade-in3 {
-	
 	animation-name: fadeInOpacity;
-	
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 5s;
 	
 }
 
+
+.fade-in4 {
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 7s;
+	
+}
 @keyframes fadeInOpacity {
 	0% {
 		opacity: 0;
@@ -187,26 +271,210 @@ h1{
 	}
 }
 
-.subtext {
-	margin-left: 50px;
-	font-family: Roboto;
+h5{
+	font-weight: 5;
 	font-size: 17px;
-}
-
-#part1{
-	background: black;
-
 
 }
+h1{
+	line-height: 48px;
+	letter-spacing: -.2px;
 
-#color1{
-	color:white;
+}
+.text-center{
+	padding-top: 10px;
 }
 
-img.resize{
-  width:200px;
-  height:500px;
-  margin-top:50px;
-  margin-left:50%;
+
+
+
+
+
+
+
+@media (min-width: 768px) { 
+
+	.text-center{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: absolute;
+	bottom: 5px;
+	left: 40%;
 }
+ 
+	.robpictrue{ 
+		background-image: url('rob.jpeg');
+		background-size: cover;
+		min-height: 100vh;
+		height: auto;
+		display: inline-block;
+	}
+
+	#no1 {
+		min-height: 50vh;	
+	}
+
+	.mobile-only{
+		display:none;
+	}
+
+	#no{
+		min-height: 100vh;
+		height: auto;
+	}
+
+	.push-down-far{
+		padding-top: 40px;
+	}
+
+
+	#manage-heading {
+		background: url("concert-1.png");
+		background-size:cover;
+		width: 100vw;
+		color:white;
+		height: 50%;
+		min-height: 50vh;
+		width: 100vw;
+		display:inline-block;
+	}
+
+	h1, h2, h3, h5{
+		margin-top: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+
+	}
+
+	.second-page h5{
+		margin-top: 20px;
+	}
+
+	h1{
+		margin-top: 75px;
+
+		font-weight:normal;
+
+
+	}
+	.results-heading{
+		display: inline-block;
+	}
+
+	.navbar-nav a {
+		text-decoration: none;
+		font-size: 15px;
+
+	}
+
+	.navbar{
+		height: 40px;
+	}
+
+	#works{
+		min-height: 70vh;
+	}
+
+	#no1 {
+		background: url("microphone.png");
+		background-size:cover;
+		color:white;
+		height: 50%;
+		min-height: 50vh;
+		width: 100vw;
+	}
+
+	#no2 {
+
+		background: #202020;
+		border-bottom: 2px solid black;
+		color:white;
+		height: 100%;
+		min-height: 50vh;	
+
+
+	}  } 
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) { 
+   
+	.robpictrue{ 
+		background-image: url('rob.jpeg');
+		background-size: cover;
+		min-height: 100vh;
+		height: auto;
+		display: inline-block;
+	}
+
+	#no1 {
+		min-height: 50vh;	
+	}
+
+	.mobile-only{
+		display:none;
+	}
+
+
+	#manage-heading {
+		background: url("concert-1.png");
+		background-size:cover;
+		width: 100vw;
+		color:white;
+		height: 50%;
+		min-height: 50vh;
+		width: 100vw;
+		display:inline-block;
+	}
+
+	h5{
+		font-weight: 5;
+		font-size: 17px;
+
+	}
+
+	.manage-margin{
+		margin-top: 80px;
+	}
+
+
+	.navbar-nav a {
+		text-decoration: none;
+
+	}
+
+	.navbar{
+		height: 40px;
+	}
+	h1{
+		line-height: 48px;
+		letter-spacing: -.2px;
+
+	}
+	h2, h3, h5{
+		margin-top: 25px;
+		margin-left: 50px;
+		font-family: Raleway;
+		font-weight: 4;
+		margin-right: 30px;
+
+	}
+
+	h1{
+		margin-top: 75px;
+		margin-left: 50px;
+		font-weight:normal;
+	}
+
+
+
+
 
